@@ -1,0 +1,108 @@
+body {
+    padding-top: 4rem; /* make room for fake navbar*/
+    padding-bottom: 3rem;
+    background-color:rgb(236, 234, 234);
+    font-family: 'Segoe UI';
+    /* background-image: url('../images/background3.jpg');
+    background-repeat: repeat; */
+  }
+
+.bg-primary{
+    background-color: white !important;
+}
+
+
+.jumbotron{
+    /* box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1); */
+    height:30vh;
+    border-radius: 0px 0px 15px 15px;
+    background: url('../images/DC_Batman.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0px;
+    
+}
+
+.navbar {
+    box-shadow: 0 3px 3px 3px rgb(236, 234, 234);
+    /* the rest of your styling */
+}
+
+.card {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 3px gray, -1px 1px gray;
+}
+
+
+.card-header {
+    font-weight: bold;
+    font-size: larger;
+    border:none;
+}
+
+
+.postcard  {
+    font-weight: lighter;
+    border:none;
+    padding-left: 12px;
+    padding-top: 4px;
+    
+}
+
+.postcard-name  {
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.postcard-date {
+    padding-bottom: 4px;
+    font-weight: lighter;
+    font-size: smaller;
+
+}
+
+.input {
+    background-color: rgb(238, 238, 238);
+    border:none; 
+}
+
+.img-fluid-cards
+{
+    border-radius: 15%;
+    cursor: pointer;
+    
+}
+
+.bi{
+    margin:10px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    color:rgb(83, 83, 83);
+    cursor: pointer;
+}
+
+
+.bi-post{
+    margin:2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    color:rgb(83, 83, 83);
+    cursor: pointer;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
+    border-color:1px solid black;
+  }
+
+.fake-navbar {
+    background-color: white;
+}
